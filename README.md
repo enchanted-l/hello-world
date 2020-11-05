@@ -1,2 +1,9 @@
-# hello-world
-20201105
+#include <stdio.h>
+
+int main()
+{
+    long int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d", a+b);
+    return 0;
+}
